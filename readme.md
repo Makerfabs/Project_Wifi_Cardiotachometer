@@ -38,6 +38,12 @@ And it also can use ESP32 ,if you change I2C pins number.
 
 # STEPS
 
+## Connect MAX30100 to ESP8266
+
+- Wire MAX30100 vin, GND, SDA, and SCL to ESP8266's 3.3V, GND, SDA, and SCL, respectively.
+
+
+
 ## Prepare And Burn
 
 **If you have any questions，such as how to install the development board, how to download the code, how to install the library. Please refer to :[Makerfabs_FAQ](https://github.com/Makerfabs/Makerfabs_FAQ)**
