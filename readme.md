@@ -79,11 +79,14 @@ server.bind(ip_port)
 - Reset ESP8266.
 
 - Wait seconds , ESP8266 need connect wifi.
-- The screen displays the bleeding oxygen curve and shows the heart rate.
 - Place your finger in the MAX30100 sensor area.
 
 ![step2](md_pic/put_finger.jpg)
 
+
+- The screen displays the bleeding oxygen curve and shows the heart rate.
+
+![drawing](md_pic/drawing.gif)
 
 # Code Explain
 
@@ -104,6 +107,8 @@ server.bind(ip_port)
 ```
 
 - Draw heartbeat plot.
+
+![draw](md_pic/draw.jpg)
 
 ```python
 plt.clf()
